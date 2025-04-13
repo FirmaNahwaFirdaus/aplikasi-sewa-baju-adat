@@ -13,3 +13,5 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 - button Cetak, button ini digunakan untuk mencetak nota pemesanan dan menyimpan transaksi ke database yang sudah ada. Jika pembayaran sudah dilakukan, nota baru bisa dicetak dan data baru bosa disimpan, namun jika belum dilakukan pembayaran, maka ajan muncul notif untuk melakukan pembayaran terlebih dahulu
 - button Bersihkan, button ini berfungsi untuk menghapus semua isian
 - button Keluar, button ini digunakan ketika ingin keluar dari aplikasi
+
+![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/508a6b5851e28d78c8262267fa553d2f13a1228c/Screenshot%20(1150).png)
