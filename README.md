@@ -16,3 +16,4 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 
 ![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-04-20%20233623.png?raw=true)
 ![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-04-20%20233656.png?raw=true)
+![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-04-20%20233729.png?raw=true)
