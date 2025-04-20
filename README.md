@@ -14,4 +14,4 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 - button Bersihkan, button ini berfungsi untuk menghapus semua isian
 - button Keluar, button ini digunakan ketika ingin keluar dari aplikasi
 
-![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/508a6b5851e28d78c8262267fa553d2f13a1228c/Screenshot%20(1150).png)
+![image alt]([https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-04-20%20233623.png])
