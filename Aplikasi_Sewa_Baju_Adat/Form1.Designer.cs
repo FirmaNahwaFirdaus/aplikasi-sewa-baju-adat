@@ -29,360 +29,307 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.opsibajuadat = new System.Windows.Forms.ComboBox();
-            this.ukuran = new System.Windows.Forms.ComboBox();
-            this.konfirmasibayar = new System.Windows.Forms.ComboBox();
-            this.pengiriman = new System.Windows.Forms.ComboBox();
-            this.tanggal = new System.Windows.Forms.DateTimePicker();
-            this.Harga = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.alamat = new System.Windows.Forms.TextBox();
-            this.totalharga = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.namapenyewa = new System.Windows.Forms.TextBox();
-            this.Jumlah = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Total = new System.Windows.Forms.Button();
-            this.keluar = new System.Windows.Forms.Button();
-            this.Hapus = new System.Windows.Forms.Button();
-            this.cetak = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.jumlahbarang = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TGLpesan = new System.Windows.Forms.TextBox();
+            this.idcus = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.namakasir = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.jenisbaju = new System.Windows.Forms.TextBox();
+            this.totalbarangxhari = new System.Windows.Forms.TextBox();
+            this.totalhrg = new System.Windows.Forms.TextBox();
+            this.pengirimannya = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.totalt = new System.Windows.Forms.TextBox();
+            this.totalu = new System.Windows.Forms.TextBox();
+            this.uangkembali = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.uangkembali);
+            this.panel1.Controls.Add(this.totalu);
+            this.panel1.Controls.Add(this.totalt);
+            this.panel1.Controls.Add(this.textBox12);
+            this.panel1.Controls.Add(this.textBox11);
+            this.panel1.Controls.Add(this.textBox10);
+            this.panel1.Controls.Add(this.textBox9);
+            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.pengirimannya);
+            this.panel1.Controls.Add(this.totalhrg);
+            this.panel1.Controls.Add(this.totalbarangxhari);
+            this.panel1.Controls.Add(this.jenisbaju);
+            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.namakasir);
+            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.idcus);
+            this.panel1.Controls.Add(this.TGLpesan);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(244, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(301, 433);
+            this.panel1.TabIndex = 0;
+            // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.RosyBrown;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(-1, 18);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(65, 57);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 47);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "APLIKASI SEWA BAJU ADAT";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Size = new System.Drawing.Size(169, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Jl. Mawar No. 05 Desa Sukawangi Depan SPBU\r\nBanjarsono";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(118, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(57, 54);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(72, 145);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(107, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "BAJU ADAT";
+            this.label2.Size = new System.Drawing.Size(82, 9);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "No.Telp 082137222000";
             // 
-            // label3
+            // textBox1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 187);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "UKURAN";
+            this.textBox1.BackColor = System.Drawing.Color.RosyBrown;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(18, 102);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(267, 3);
+            this.textBox1.TabIndex = 3;
             // 
-            // label4
+            // TGLpesan
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(72, 230);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "TANGGAL SEWA";
+            this.TGLpesan.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TGLpesan.Location = new System.Drawing.Point(18, 111);
+            this.TGLpesan.Name = "TGLpesan";
+            this.TGLpesan.Size = new System.Drawing.Size(100, 13);
+            this.TGLpesan.TabIndex = 4;
+            this.TGLpesan.Text = "20-04-2025";
             // 
-            // label5
+            // idcus
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(423, 306);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "KONFIRMASI PEMBAYARAN";
+            this.idcus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.idcus.Location = new System.Drawing.Point(18, 147);
+            this.idcus.Name = "idcus";
+            this.idcus.Size = new System.Drawing.Size(100, 13);
+            this.idcus.TabIndex = 5;
+            this.idcus.Text = "No. 7";
             // 
-            // label6
+            // textBox4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(72, 357);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(120, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "PILIHAN PENGIRIMAN";
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Location = new System.Drawing.Point(185, 111);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 13);
+            this.textBox4.TabIndex = 6;
+            this.textBox4.Text = "Kasir:";
             // 
-            // opsibajuadat
+            // namakasir
             // 
-            this.opsibajuadat.FormattingEnabled = true;
-            this.opsibajuadat.Location = new System.Drawing.Point(192, 142);
-            this.opsibajuadat.Name = "opsibajuadat";
-            this.opsibajuadat.Size = new System.Drawing.Size(121, 21);
-            this.opsibajuadat.TabIndex = 6;
-            this.opsibajuadat.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.namakasir.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.namakasir.Location = new System.Drawing.Point(185, 130);
+            this.namakasir.Name = "namakasir";
+            this.namakasir.Size = new System.Drawing.Size(100, 13);
+            this.namakasir.TabIndex = 7;
+            this.namakasir.Text = "koko";
             // 
-            // ukuran
+            // textBox2
             // 
-            this.ukuran.FormattingEnabled = true;
-            this.ukuran.Location = new System.Drawing.Point(192, 184);
-            this.ukuran.Name = "ukuran";
-            this.ukuran.Size = new System.Drawing.Size(121, 21);
-            this.ukuran.TabIndex = 7;
+            this.textBox2.BackColor = System.Drawing.Color.RosyBrown;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(18, 166);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(267, 3);
+            this.textBox2.TabIndex = 8;
             // 
-            // konfirmasibayar
+            // jenisbaju
             // 
-            this.konfirmasibayar.FormattingEnabled = true;
-            this.konfirmasibayar.Location = new System.Drawing.Point(579, 302);
-            this.konfirmasibayar.Name = "konfirmasibayar";
-            this.konfirmasibayar.Size = new System.Drawing.Size(137, 21);
-            this.konfirmasibayar.TabIndex = 8;
+            this.jenisbaju.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.jenisbaju.Location = new System.Drawing.Point(18, 184);
+            this.jenisbaju.Name = "jenisbaju";
+            this.jenisbaju.Size = new System.Drawing.Size(100, 13);
+            this.jenisbaju.TabIndex = 9;
+            this.jenisbaju.Text = "Kebaya Bali";
             // 
-            // pengiriman
+            // totalbarangxhari
             // 
-            this.pengiriman.FormattingEnabled = true;
-            this.pengiriman.Location = new System.Drawing.Point(192, 353);
-            this.pengiriman.Name = "pengiriman";
-            this.pengiriman.Size = new System.Drawing.Size(121, 21);
-            this.pengiriman.TabIndex = 9;
+            this.totalbarangxhari.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.totalbarangxhari.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalbarangxhari.Location = new System.Drawing.Point(18, 203);
+            this.totalbarangxhari.Name = "totalbarangxhari";
+            this.totalbarangxhari.Size = new System.Drawing.Size(100, 11);
+            this.totalbarangxhari.TabIndex = 10;
+            this.totalbarangxhari.Text = "1x2";
             // 
-            // tanggal
+            // totalhrg
             // 
-            this.tanggal.Location = new System.Drawing.Point(192, 225);
-            this.tanggal.Name = "tanggal";
-            this.tanggal.Size = new System.Drawing.Size(121, 20);
-            this.tanggal.TabIndex = 10;
+            this.totalhrg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.totalhrg.Location = new System.Drawing.Point(185, 184);
+            this.totalhrg.Name = "totalhrg";
+            this.totalhrg.Size = new System.Drawing.Size(100, 13);
+            this.totalhrg.TabIndex = 11;
+            this.totalhrg.Text = "55000";
             // 
-            // Harga
+            // pengirimannya
             // 
-            this.Harga.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.Harga.Location = new System.Drawing.Point(330, 142);
-            this.Harga.Name = "Harga";
-            this.Harga.Size = new System.Drawing.Size(90, 20);
-            this.Harga.TabIndex = 11;
-            this.Harga.Text = "Harga";
-            this.Harga.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.pengirimannya.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.pengirimannya.Location = new System.Drawing.Point(18, 220);
+            this.pengirimannya.Name = "pengirimannya";
+            this.pengirimannya.Size = new System.Drawing.Size(100, 13);
+            this.pengirimannya.TabIndex = 12;
+            this.pengirimannya.Text = "Ambil";
             // 
-            // label7
+            // textBox8
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(72, 400);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "ALAMAT";
+            this.textBox8.BackColor = System.Drawing.Color.RosyBrown;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(18, 239);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(267, 3);
+            this.textBox8.TabIndex = 13;
             // 
-            // alamat
+            // textBox9
             // 
-            this.alamat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.alamat.Location = new System.Drawing.Point(192, 395);
-            this.alamat.Name = "alamat";
-            this.alamat.Size = new System.Drawing.Size(121, 20);
-            this.alamat.TabIndex = 13;
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(18, 262);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 13);
+            this.textBox9.TabIndex = 14;
+            this.textBox9.Text = "Total";
             // 
-            // totalharga
+            // textBox10
             // 
-            this.totalharga.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalharga.Location = new System.Drawing.Point(579, 237);
-            this.totalharga.Name = "totalharga";
-            this.totalharga.Size = new System.Drawing.Size(137, 20);
-            this.totalharga.TabIndex = 14;
-            this.totalharga.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox10.Location = new System.Drawing.Point(18, 304);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 20);
+            this.textBox10.TabIndex = 15;
+            this.textBox10.Text = "Total Uang";
             // 
-            // label8
+            // textBox11
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(421, 240);
-            this.label8.Name = "label8";
-            this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label8.Size = new System.Drawing.Size(137, 17);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "TOTAL PEMBAYARAN";
+            this.textBox11.Location = new System.Drawing.Point(18, 330);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(100, 20);
+            this.textBox11.TabIndex = 16;
+            this.textBox11.Text = "Kembalian";
             // 
-            // label9
+            // textBox12
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(72, 107);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(95, 13);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "NAMA PENYEWA";
+            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(18, 281);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(100, 18);
+            this.textBox12.TabIndex = 17;
+            this.textBox12.Text = "cash";
             // 
-            // namapenyewa
+            // totalt
             // 
-            this.namapenyewa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.namapenyewa.Location = new System.Drawing.Point(192, 103);
-            this.namapenyewa.Name = "namapenyewa";
-            this.namapenyewa.Size = new System.Drawing.Size(121, 20);
-            this.namapenyewa.TabIndex = 17;
+            this.totalt.Location = new System.Drawing.Point(185, 262);
+            this.totalt.Name = "totalt";
+            this.totalt.Size = new System.Drawing.Size(100, 20);
+            this.totalt.TabIndex = 18;
+            this.totalt.Text = "110000";
             // 
-            // Jumlah
+            // totalu
             // 
-            this.Jumlah.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Jumlah.Location = new System.Drawing.Point(192, 309);
-            this.Jumlah.Name = "Jumlah";
-            this.Jumlah.Size = new System.Drawing.Size(121, 20);
-            this.Jumlah.TabIndex = 18;
+            this.totalu.Location = new System.Drawing.Point(185, 304);
+            this.totalu.Name = "totalu";
+            this.totalu.Size = new System.Drawing.Size(100, 20);
+            this.totalu.TabIndex = 19;
+            this.totalu.Text = "110000";
             // 
-            // label10
+            // uangkembali
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(72, 313);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(114, 13);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "JUMLAH HARI SEWA";
+            this.uangkembali.Location = new System.Drawing.Point(185, 330);
+            this.uangkembali.Name = "uangkembali";
+            this.uangkembali.Size = new System.Drawing.Size(100, 20);
+            this.uangkembali.TabIndex = 20;
+            this.uangkembali.Text = "-";
             // 
-            // pictureBox1
+            // textBox3
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(510, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(206, 147);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
-            // Total
-            // 
-            this.Total.BackColor = System.Drawing.Color.Gainsboro;
-            this.Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Total.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Total.Location = new System.Drawing.Point(641, 263);
-            this.Total.Name = "Total";
-            this.Total.Size = new System.Drawing.Size(75, 23);
-            this.Total.TabIndex = 21;
-            this.Total.Text = "Total";
-            this.Total.UseVisualStyleBackColor = false;
-            this.Total.Click += new System.EventHandler(this.Total_Click_1);
-            // 
-            // keluar
-            // 
-            this.keluar.BackColor = System.Drawing.Color.Gainsboro;
-            this.keluar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.keluar.Location = new System.Drawing.Point(641, 394);
-            this.keluar.Name = "keluar";
-            this.keluar.Size = new System.Drawing.Size(75, 23);
-            this.keluar.TabIndex = 22;
-            this.keluar.Text = "Keluar";
-            this.keluar.UseVisualStyleBackColor = false;
-            this.keluar.Click += new System.EventHandler(this.keluar_Click);
-            // 
-            // Hapus
-            // 
-            this.Hapus.BackColor = System.Drawing.Color.Gainsboro;
-            this.Hapus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Hapus.Location = new System.Drawing.Point(641, 362);
-            this.Hapus.Name = "Hapus";
-            this.Hapus.Size = new System.Drawing.Size(75, 23);
-            this.Hapus.TabIndex = 23;
-            this.Hapus.Text = "Bersihkan";
-            this.Hapus.UseVisualStyleBackColor = false;
-            this.Hapus.Click += new System.EventHandler(this.Hapus_Click);
-            // 
-            // cetak
-            // 
-            this.cetak.BackColor = System.Drawing.Color.Gainsboro;
-            this.cetak.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cetak.Location = new System.Drawing.Point(641, 328);
-            this.cetak.Name = "cetak";
-            this.cetak.Size = new System.Drawing.Size(75, 23);
-            this.cetak.TabIndex = 24;
-            this.cetak.Text = "Cetak";
-            this.cetak.UseVisualStyleBackColor = false;
-            this.cetak.Click += new System.EventHandler(this.cetak_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(72, 273);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(98, 13);
-            this.label11.TabIndex = 25;
-            this.label11.Text = "JUMLAH BARANG";
-            // 
-            // jumlahbarang
-            // 
-            this.jumlahbarang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.jumlahbarang.Location = new System.Drawing.Point(192, 270);
-            this.jumlahbarang.Name = "jumlahbarang";
-            this.jumlahbarang.Size = new System.Drawing.Size(121, 20);
-            this.jumlahbarang.TabIndex = 26;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(77, 400);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(134, 11);
+            this.textBox3.TabIndex = 21;
+            this.textBox3.Text = "Terimakasih atas kunjungannya";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Snow;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.jumlahbarang);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.cetak);
-            this.Controls.Add(this.Hapus);
-            this.Controls.Add(this.keluar);
-            this.Controls.Add(this.Total);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.Jumlah);
-            this.Controls.Add(this.namapenyewa);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.totalharga);
-            this.Controls.Add(this.alamat);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.Harga);
-            this.Controls.Add(this.tanggal);
-            this.Controls.Add(this.pengiriman);
-            this.Controls.Add(this.konfirmasibayar);
-            this.Controls.Add(this.ukuran);
-            this.Controls.Add(this.opsibajuadat);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox opsibajuadat;
-        private System.Windows.Forms.ComboBox ukuran;
-        private System.Windows.Forms.ComboBox konfirmasibayar;
-        private System.Windows.Forms.ComboBox pengiriman;
-        private System.Windows.Forms.DateTimePicker tanggal;
-        private System.Windows.Forms.TextBox Harga;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox alamat;
-        private System.Windows.Forms.TextBox totalharga;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox namapenyewa;
-        private System.Windows.Forms.TextBox Jumlah;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button Total;
-        private System.Windows.Forms.Button keluar;
-        private System.Windows.Forms.Button Hapus;
-        private System.Windows.Forms.Button cetak;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox jumlahbarang;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox TGLpesan;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox namakasir;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox idcus;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox pengirimannya;
+        private System.Windows.Forms.TextBox totalhrg;
+        private System.Windows.Forms.TextBox totalbarangxhari;
+        private System.Windows.Forms.TextBox jenisbaju;
+        private System.Windows.Forms.TextBox uangkembali;
+        private System.Windows.Forms.TextBox totalu;
+        private System.Windows.Forms.TextBox totalt;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
-
