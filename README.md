@@ -14,10 +14,11 @@ Aplikasi ini dilengkapi dengan fitur utama, di antaranya:
 - button Riwayat, button ini digunakan untuk menghubungkan form Main_Page ke form Riwayat yang berisi data dari para penyewa.
 - button Simpan, button ini digunakan untuk mencetak nota pemesanan dan menyimpan transaksi ke database yang sudah ada. Jika pembayaran sudah dilakukan, nota baru bisa dicetak dan data baru bosa disimpan, namun jika belum dilakukan pembayaran, maka ajan muncul notif untuk melakukan pembayaran terlebih dahulu
 - button Bersihkan, button ini berfungsi untuk menghapus semua isian
-- button Keluar, button ini digunakan ketika ingin keluar dari aplikasi
 - pada form Riwayat terdapat fitur search untuk mencari data berdasarkan nama penyewa.
 - fitur edit, untuk mengubah atau mengupdate data sesuai dengan baris data yang dipilih.
 - fitur hapus, untuk menghapus baris data yang dipilih.
+- button kembali, untuk kembali ke halaman sebelumnya.
+- button Keluar, digunakan ketika ingin keluar dari aplikasi.
 
 ![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-04-20%20233623.png?raw=true)
 ![image alt](https://github.com/FirmaNahwaFirdaus/aplikasi-sewa-baju-adat/blob/bajuadat/Screenshot%202025-05-01%20134146.png?raw=true)
